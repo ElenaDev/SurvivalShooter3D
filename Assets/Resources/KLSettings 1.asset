@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd5d1904cd5304843a753e2194a13d50, type: 3}
+  m_Name: KLSettings 1
+  m_EditorClassIdentifier: 
+  autogenerateCode: 1
+  editorLogLevel: 1
+  buildLogLevel: 2
+  m_krilloudInDebugMode: 0
+  placeholderContract:
+    tags: []
+    variables: []
+  cacheContract:
+    tags:
+    - name: Background
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 1
+      channelId: 0
+      sourceContract: 2
+    - name: Player
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 1
+      sourceContract: 2
+    - name: Hellephant
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 1
+      sourceContract: 2
+    - name: ZomBear
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 1
+      sourceContract: 2
+    - name: ZomBunny
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 1
+      sourceContract: 2
+    variables:
+    - name: PlayerVar
+      defaultValue: 0
+      isGlobal: 1
+      source: 2
+      content: 0
+      min: 0
+      max: 2
+      sourceContract: 2
+    - name: HellephantVar
+      defaultValue: 1
+      isGlobal: 0
+      source: 2
+      content: 0
+      min: 0
+      max: 1
+      sourceContract: 2
+    - name: ZomBearVar
+      defaultValue: 1
+      isGlobal: 0
+      source: 2
+      content: 0
+      min: 0
+      max: 1
+      sourceContract: 2
+    - name: ZomBunnyVar
+      defaultValue: 0
+      isGlobal: 0
+      source: 2
+      content: 0
+      min: 0
+      max: 1
+      sourceContract: 2
+    soundbank_files: []
+    channels: []
